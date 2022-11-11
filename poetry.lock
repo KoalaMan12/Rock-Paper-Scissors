@@ -245,6 +245,14 @@ testing = ["pytest-benchmark", "pytest"]
 dev = ["tox", "pre-commit"]
 
 [[package]]
+name = "pydub"
+version = "0.25.1"
+description = "Manipulate audio with an simple and easy high level interface"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pyflakes"
 version = "2.5.0"
 description = "passive checker of Python programs"
@@ -478,7 +486,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "f328c469a46d9cb95c79b10c69318f07ccca3f40cc6eb43ef51c87ad2ff1879b"
+content-hash = "40369154ef3306c0d70fb9ad8355293a1d446e0270281aee1c602ddba278861e"
 
 [metadata.files]
 aiohttp = []
@@ -503,6 +511,7 @@ numpy = []
 packaging = []
 parso = []
 pluggy = []
+pydub = []
 pyflakes = []
 pyparsing = []
 python-lsp-jsonrpc = []
