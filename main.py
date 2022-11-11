@@ -23,6 +23,3 @@ if a == (3):
   if str.lower(Player) == "rock":
     print("You Win")
     print()
-
-if a == (4):
-  print("this can't happen")
