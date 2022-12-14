@@ -25,8 +25,8 @@ if a == (1):
       won += 1
   if str.lower(Player) == "paper":
       print("You Tied")
-  else:
-   os.system('clear')
+else:
+  os.system('clear')
   print("You cant do that")
 if a == (2):
   print("Rock")
@@ -37,8 +37,8 @@ if a == (2):
       won += 1
   if str.lower(Player) == "rock":
       print("You Tied")
-  else:
-   os.system('clear')
+else:
+  os.system('clear')
   print("You cant do that")
 if a == (3):
   print("Scissors")
@@ -49,6 +49,6 @@ if a == (3):
       won += 1
   if str.lower(Player) == "scissors":
       print("You Tied")
-  else:
-   os.system('clear')
+else:
+  os.system('clear')
   print("You cant do that")
